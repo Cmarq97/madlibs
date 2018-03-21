@@ -1,13 +1,41 @@
-/*
-    h1{
-        font-family: sans-serif
-        font-color: red;
+
+    h1 {
+        color: white;
+        font-family: sans-serif;
+
+    }
+    .welcome{
+        color:white;
+        font-family: sans-serif;
+        background-color: red;
     }
 
-    p{
-        color: green;
+    title {
+
+        color: white;
+        font-family: sans-serif;
+
+    }
+
+    p {
+        color: white;
         margin-left: auto;
         margin-right: auto;
+        font-family: sans-serif;
     }
 
+    .scare {
+        background-image: url(jigsaw-movie.jpg);
+    }
+
+  /*  .urgent{
+
+        color: green;
+        font-family: sans-serif;
+
+    }*/
+/*
+    body {
+        background: url(jigsaw-movie.jpg);
+    }
 */

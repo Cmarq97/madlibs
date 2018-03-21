@@ -6,7 +6,7 @@
   <link rel="stylesheet"
         href="/static/madlibs.css">
 </head>
-<body>
+<body class="welcome">
 
 <h1>WELCOME</h1>
 
@@ -14,15 +14,24 @@
   Please enter a name: <input type="text" name="person"><br>
   Please give a noun:  <input type="text" name="noun"><br>
   Please give an adjective: <input type="text" name="adjective"><br>
+  Please give a noun:  <input type="text" name="noun2"><br>
+  Please give an adjective: <input type="text" name="adjective2"><br>
 
+  Please select an animal: <br><input type="checkbox" name="animal" value="balloonicorn">Ballonicorn <br><img src="static/balloonicorn.png" alt="Ballonicorn" width="150" height="150"><br>
+  <input type="checkbox" name="animal" value="magical ferret">Magical Ferret<br> <img src="static/ferret.jpg" width="100" height="100"><br>
+  <input type="checkbox" name="animal" value="George the dog">George the Dog <br><img src="static/george.png" width="100" height="100"><br>
+  <input type="checkbox" name="animal" value="Monty python">Monty Python<br><img src="static/snake.jpg" width="100" height="100"><br>
+
+<div class="urgent">
   Please select a color:
   <select name="color">
-        <option value="Red">Red</option>
-        <option value="Blue">Blue</option>
-        <option value="Light Salmon 1">Light Salmon 1</option>
-        <option value="Cornflower">Cornflower</option>
-        <option value="Syntax Error White">Syntax Error White</option>
-        <option value="George Yellow">George Yellow</option><br>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="light salmon1">Light Salmon1</option>
+        <option value="cornflower">Cornflower</option>
+        <option value="syntaxerrorwhite">Syntax Error White</option>
+        <option value="George yellow">George Yellow</option><br>
+</div>
   <input type="submit">
 </form>
 
